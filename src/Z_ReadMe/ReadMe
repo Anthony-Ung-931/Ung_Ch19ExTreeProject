@@ -1,0 +1,30 @@
+Postfix Tree
+Anthony Ung
+CSC-223-OL
+
+Files:
+ReadMe - Contains a high-level description of all files.
+
+PostFix3 Package
+    PostFix3 - Driver for PostFixEvaluator
+
+    PostFixEvaluator - Evaluates a PostFix expression.
+
+    PostFixException -  Represents the full range of unusual circumstances 
+                            that can be thrown when attempting to evaluate 
+                            a PostFix exception.
+
+    PostFixOperations - Contains only static methods.
+                        Separates the inner workings of the
+                            add, subtract, multiply, divide, mod, and power
+                            methods from the PostFixEvaluator.
+
+Stack Package
+    EmptyCollectionException - Represents the exception to be thrown.
+
+    LinearNode - Represents a Linear Node
+
+    LinkedStack - Implements StackADT
+        Creates a Stack using a LinkedList
+
+    StackADT - Interface for a Stack.
